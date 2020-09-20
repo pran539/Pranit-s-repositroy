@@ -1,0 +1,31 @@
+print("hi i'am maths i will help you to do your operation in a minute.so,what can i do for you?\n")
+print("which operation i can do for you")
+addition=print("1.addition")
+subtraction=print("2.subtraction")
+multiplication=print("3.multiplication")
+division=print("4.division")
+
+operation=int(input("enter your desired operation type the number of operation"))
+
+if operation == 1:
+    x = int(input("enter you desired number"))
+    y = int(input("enter you desired number"))
+    print(x + y)
+
+elif operation == 2:
+    x = int(input("enter you desired number"))
+    y = int(input("enter you desired number"))
+    print(x - y)
+
+elif operation == 3:
+    x = int(input("enter you desired number"))
+    y = int(input("enter you desired number"))
+    print(x * y)
+
+elif operation == 4:
+    x = int(input("enter you desired number"))
+    y = int(input("enter you desired number"))
+    print(x / y)
+
+
+print('i hope you have got the correct answer if you want to do some more operation rerun  this program')
