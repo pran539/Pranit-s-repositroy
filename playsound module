@@ -1,0 +1,2 @@
+import playsound
+playsound('enter here the location of your audio track to play it press run and instead of one slash in your location add 2 ex-c:\this is wrong c:\\ this is correct ‪')
