@@ -1,0 +1,15 @@
+gan = input("enter your name")
+print("hi")
+print("good morning "+gan )
+
+hi=input("")
+print("what can i do for you "+gan)
+print('''1)for mathematics type 1
+2)for simple chatting type 2
+3)for etc type 3
+''')
+wtd=int(input(""))
+
+if wtd ==1:
+    print("ok i see is your mathematics weak are you no")
+    ans1=input("")
